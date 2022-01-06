@@ -1,0 +1,15 @@
+.nav{
+    flex-direction: row;
+}
+
+.navItem {
+    color: white;
+}
+
+.ch {
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.ml-auto {
+    margin-left: auto;
+}

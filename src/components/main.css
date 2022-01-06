@@ -1,0 +1,41 @@
+.main-grid {
+    display: grid;
+    grid-template-areas: 
+    'navbar'
+    'Text'
+    'button';
+    grid-template-rows: 5fr 91fr 4fr;
+}
+
+.printer-grid {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(185px, 1fr) );
+}
+
+.printer-icon {
+    display: grid;
+    width: fit-content;
+    height: fit-content;
+    margin: 10px;
+    padding: 10px;
+    background-color: gray;
+    border-radius: 15px;
+}
+
+.printer-icon > p {
+    font-size: 20px;  
+}
+
+
+.add-printer {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.cancel-button {
+    float: right;
+    margin-left: '10px';
+    background-color: gray;
+}
+
